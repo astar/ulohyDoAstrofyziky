@@ -1,4 +1,5 @@
 # makefile pro diplomku
+# uprava na tauru
 
 PACKAGE   = diplomka
 VERSION   = ` date +"%Y.%m%d" `
