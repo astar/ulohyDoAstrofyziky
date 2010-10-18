@@ -1,0 +1,12 @@
+#!/usr/bin/gnuplot
+# plot.eps.gnuplot
+#set term epslatex color
+set term png
+#set format "$%g$"
+
+#set xlabel  "Vlnová délka [$\\AA$]"                                                                            
+#set ylabel  "Tok energie [$10^{-17} erg/s/cm^2/\\AA$]"
+set output "pic/plot.png"
+set size 0.7,0.7
+plot "data/data" w l
+
